@@ -1,4 +1,3 @@
-
 # **WshShell.Popup()** 
 
   ポップアップ メッセージ ボックスにテキストを表示します。
@@ -10,7 +9,7 @@ intButton = object.Popup(strText,[nSecondsToWait],[strTitle],[nType])
 
 ---------------------------------------------------------------
 
-## 説明
+## 引数
 + object 
     + WshShell オブジェクトです。 
 + strText 
@@ -46,4 +45,3 @@ intButton = object.Popup(strText,[nSecondsToWait],[strTitle],[nType])
 + 32 [?] アイコンを表示します。 (question)
 + 48 [!] アイコンを表示します。(alert) 
 + 64 [i] アイコンを表示します。(infomation)
-
